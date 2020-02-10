@@ -12,7 +12,7 @@ install:
   - export PATH=/snap/bin:$PATH
 
 script:
-  - hugo --enableGitInfo
+  - hugo 
 
 deploy:
   provider: pages
